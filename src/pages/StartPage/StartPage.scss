@@ -1,0 +1,28 @@
+.startPage {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgImage {
+  width: 50%;
+  height: 100%;
+
+  background: initial;
+  background-image: url("../../images/first_page.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.modWinWrap {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

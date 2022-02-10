@@ -1,0 +1,85 @@
+.modalWindow {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Caveat", cursive;
+  color: #012a4a;
+
+  .mailWrap {
+    padding: 1rem;
+    background: rgb(234, 228, 233);
+    background: linear-gradient(
+      180deg,
+      rgba(234, 228, 233, 1) 60%,
+      rgba(255, 241, 230, 1) 100%
+    );
+    border: 2px solid #bf953f;
+    border-radius: 2px;
+
+    .mail {
+      width: 100%;
+      padding: 1rem 2rem 2rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .vensel {
+        width: 100%;
+        height: 2rem;
+
+        background-image: url("../../images/venzel.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .title {
+        font-size: 2rem;
+      }
+
+      .invitation {
+        font-size: 1.2rem;
+      }
+
+      .element {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .button {
+    margin: 1rem;
+
+    background: rgb(191, 149, 63);
+    background: linear-gradient(
+      180deg,
+      rgba(252, 246, 186, 1) 50%,
+      rgba(170, 119, 28, 1) 100%
+    );
+
+    border: 1px solid #aa771c;
+    padding: 0.5rem;
+
+    font-family: "Caveat", cursive;
+    color: #012a4a;
+    font-size: 1.2rem;
+
+    cursor: pointer;
+
+    &:hover {
+      background: rgb(191, 149, 63);
+      background: linear-gradient(
+        180deg,
+        rgba(170, 119, 28, 1) 50%,
+        rgba(252, 246, 186, 1) 100%
+      );
+
+      color: #03508b;
+      text-shadow: 0px 0px 5px #f8f5b7;
+    }
+  }
+}
